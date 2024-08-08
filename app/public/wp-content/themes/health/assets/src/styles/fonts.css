@@ -1,0 +1,47 @@
+@font-face {
+ font-family: "helvetica-bold";
+ src: url(../fonts/HelveticaNeueCyr-Bold.ttf) format("ttf"),
+  url(../fonts/HelveticaNeueCyr-Bold.woff2) format("woff2");
+ font-weight: 700;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "helvetica-medium";
+ src: url(../fonts/HelveticaNeueCyr-Medium.ttf) format("ttf"),
+  url(../fonts/HelveticaNeueCyr-Medium.woff2) format("woff2");
+ font-weight: 500;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "helvetica-light";
+ src: url(../fonts/HelveticaNeueCyr-Light.ttf) format("ttf"),
+  url(../fonts/HelveticaNeueCyr-Light.woff2) format("woff2");
+ font-weight: 300;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "georgia-bold";
+ src: url(../fonts/Georgia-Bold.ttf) format("ttf"),
+  url(../fonts/Georgia-Bold.woff2) format("woff2");
+ font-weight: 700;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "chalkboards-bold";
+ src: url(../fonts/CHALKBOARDSB.ttf) format("ttf"),
+  url(../fonts/CHALKBOARDSB.woff2) format("woff2");
+ font-weight: 700;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "chalkboards-regular";
+ src: url(../fonts/CHALKBOARDS.ttf) format("ttf"),
+  url(../fonts/CHALKBOARDS.woff2) format("woff2");
+ font-weight: 400;
+ font-display: swap;
+}

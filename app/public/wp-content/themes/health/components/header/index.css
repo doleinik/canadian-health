@@ -1,0 +1,72 @@
+@tailwind components;
+
+@layer components {
+ .header-search input,
+ .header-search input::placeholder {
+  @apply text-black resp-[font/14] font-helvetica-medium;
+ }
+
+ #menu-header-menu {
+  @apply flex resp-[gap/26/15];
+ }
+
+ #menu-header-menu .menu-item {
+  @apply flex resp-[gap/45];
+ }
+
+ #menu-header-menu .menu-item a {
+  @apply flex items-center resp-[gap/7] whitespace-nowrap;
+ }
+
+ #menu-header-menu .menu-item a {
+  @apply flex 
+  items-center 
+  resp-[gap/7] 
+  resp-[font/24/16] 
+  font-accent
+  leading-[2] 
+  origin-center;
+ }
+
+ .header__hamburger.open span {
+  @apply absolute 
+  left-0 
+  top-[50%];
+ }
+
+ .header__hamburger.open span:nth-child(1) {
+  @apply rotate-45;
+ }
+
+ .header__hamburger.open span:nth-child(2) {
+  @apply rotate-[-45deg]
+        /*origin-[0%_-68%]*/;
+ }
+
+ .header__hamburger.open span:nth-child(3) {
+  @apply hidden;
+ }
+
+ .modal-menu.open {
+  @apply block 
+  tabletMiddle:hidden;
+ }
+
+ .header_menu-mobile .menu {
+  @apply flex 
+  flex-col 
+  resp-[gap/35];
+ }
+
+ .header_menu-mobile .menu-item a {
+  @apply resp-[font/32] 
+  font-accent;
+ }
+
+ .ajaxsearch__wrap .results .resdrg {
+  @apply !border-t-[1px] !border-gray;
+ }
+ .ajaxsearch__wrap .asp_image {
+  @apply !rounded-[10px];
+ }
+}

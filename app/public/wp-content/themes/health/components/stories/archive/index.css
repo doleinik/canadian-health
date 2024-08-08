@@ -1,0 +1,35 @@
+@tailwind components;
+
+@layer components {
+ .checkbox-wrap {
+  @apply w-fit
+        cursor-pointer;
+ }
+
+ .checkbox-wrap label {
+  @apply block 
+        bg-white 
+        rounded-full
+         text-black 
+         resp-[pt/12]
+         resp-[pb/10]
+         w-fit 
+         whitespace-nowrap
+         !resp-[px/20] 
+         font-helvetica-medium
+         cursor-pointer;
+ }
+
+ .checkbox-wrap input {
+  @apply hidden;
+ }
+
+ .checkbox-wrap input:checked + label {
+  @apply bg-green
+        text-white;
+ }
+
+ .checkbox-wrap input {
+  @apply hidden;
+ }
+}

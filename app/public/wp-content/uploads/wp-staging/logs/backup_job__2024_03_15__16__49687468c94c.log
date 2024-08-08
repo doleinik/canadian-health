@@ -1,0 +1,98 @@
+[info]-[2024/03/15 16:30:10] #################### Start Backup Job ####################
+[info]-[2024/03/15 16:30:10] WP Staging Version: Pro 4.9.0
+[info]-[2024/03/15 16:30:10] PHP Version: 8.1.23
+[info]-[2024/03/15 16:30:10] Server: Apache/2.4.43 (Unix)
+[info]-[2024/03/15 16:30:10] MySQL: 8.0.16
+[info]-[2024/03/15 16:30:10] WP Version: 6.4.3
+[info]-[2024/03/15 16:30:10] PHP Memory Limit: 268435456
+[info]-[2024/03/15 16:30:10] WP Memory Limit: 41943040
+[info]-[2024/03/15 16:30:10] PHP Max Execution Time: 1200
+[info]-[2024/03/15 16:30:10] Backup requirements passed...
+[info]-[2024/03/15 16:30:10] Discovering Files: Skipped directory "wp-content/cache/". Excluded by rule
+[info]-[2024/03/15 16:30:10] Discovering Files: Skipped directory "wp-content/ai1wm-backups/". Excluded by rule
+[info]-[2024/03/15 16:30:10] Discovering Files: Skipped file "wp-content/Архив.zip/" (99 MB). It exceeds the maximum allowed file size for files with the extension "zip" (10 MB).
+[info]-[2024/03/15 16:30:11] Discovering Files: Skipped directory "wp-content/plugins/wp-staging-pro/". Excluded by rule
+[info]-[2024/03/15 16:30:12] Discovering Files: Skipped directory "wp-content/uploads/wp-staging/". Excluded by rule
+[info]-[2024/03/15 16:30:12] Discovering Files: Skipped file "wp-content/plugins/all-in-one-wp-migration/storage/error.log/." Extension "log" is excluded by rule.
+[info]-[2024/03/15 16:30:15] Discovering Files: Skipped file "wp-content/plugins/brainwave/assembly/node_modules/is-arrayish/yarn-error.log/." Extension "log" is excluded by rule.
+[info]-[2024/03/15 16:30:15] Discovering Files: Skipped file "wp-content/plugins/brainwave/assembly/node_modules/ttf2woff2/builderror.log/." Extension "log" is excluded by rule.
+[info]-[2024/03/15 16:30:15] Finished discovering Files. (28704 files)
+[info]-[2024/03/15 16:30:16] Added 59/59 otherfiles files to backup (13 MB/s)
+[info]-[2024/03/15 16:30:26] Added 10933/27982 plugins files to backup (9 MB/s)
+[info]-[2024/03/15 16:30:36] Added 22893/27982 plugins files to backup (4 MB/s)
+[info]-[2024/03/15 16:30:41] Added 27982/27982 plugins files to backup (16 MB/s)
+[info]-[2024/03/15 16:30:42] Added 122/122 muplugins files to backup (9 MB/s)
+[info]-[2024/03/15 16:30:43] Added 475/475 themes files to backup (31 MB/s)
+[info]-[2024/03/15 16:30:43] Added 66/66 uploads files to backup (108 MB/s)
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_actionscheduler_actions. Rows: 183/183
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_actionscheduler_claims. Rows: 0/0
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_actionscheduler_groups. Rows: 2/2
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_actionscheduler_logs. Rows: 548/548
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_ajaxsearchpro. Rows: 1/1
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_ajaxsearchpro_priorities. Rows: 0/0
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_ajaxsearchpro_statistics. Rows: 0/0
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_asp_index. Rows: 853/853
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_asp_synonyms. Rows: 0/0
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_commentmeta. Rows: 0/0
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_comments. Rows: 1/1
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_links. Rows: 0/0
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_automation_run_logs. Rows: 0/0
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_automation_run_subjects. Rows: 0/0
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_automation_runs. Rows: 0/0
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_automation_triggers. Rows: 0/0
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_automation_versions. Rows: 0/0
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_automations. Rows: 0/0
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_custom_fields. Rows: 1/1
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_dynamic_segment_filters. Rows: 0/0
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_feature_flags. Rows: 0/0
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_forms. Rows: 1/1
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_log. Rows: 59/59
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_migrations. Rows: 26/26
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_newsletter_links. Rows: 0/0
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_newsletter_option. Rows: 3/3
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_newsletter_option_fields. Rows: 31/31
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_newsletter_posts. Rows: 0/0
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_newsletter_segment. Rows: 2/2
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_newsletter_templates. Rows: 76/76
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_newsletters. Rows: 3/3
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_scheduled_task_subscribers. Rows: 347/347
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_scheduled_tasks. Rows: 490/490
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_segments. Rows: 3/3
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_sending_queues. Rows: 0/0
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_settings. Rows: 41/41
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_statistics_bounces. Rows: 0/0
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_statistics_clicks. Rows: 0/0
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_statistics_forms. Rows: 8/8
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_statistics_newsletters. Rows: 0/0
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_statistics_opens. Rows: 0/0
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_statistics_unsubscribes. Rows: 0/0
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_statistics_woocommerce_purchases. Rows: 0/0
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_stats_notifications. Rows: 0/0
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_subscriber_custom_field. Rows: 0/0
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_subscriber_ips. Rows: 25/25
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_subscriber_segment. Rows: 10/10
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_subscriber_tag. Rows: 0/0
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_subscribers. Rows: 9/9
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_tags. Rows: 0/0
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_user_agents. Rows: 0/0
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_mailpoet_user_flags. Rows: 4/4
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_newsletter. Rows: 6/6
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_newsletter_emails. Rows: 0/0
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_newsletter_logs. Rows: 0/0
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_newsletter_sent. Rows: 0/0
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_newsletter_stats. Rows: 0/0
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_newsletter_user_logs. Rows: 5/5
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_newsletter_user_meta. Rows: 0/0
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_options. Rows: 303/303
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_postmeta. Rows: 328/328
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_posts. Rows: 122/122
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_term_relationships. Rows: 47/47
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_term_taxonomy. Rows: 18/18
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_termmeta. Rows: 0/0
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_terms. Rows: 18/18
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_usermeta. Rows: 73/73
+[info]-[2024/03/15 16:30:44] Backup database: Table wp_users. Rows: 2/2
+[info]-[2024/03/15 16:30:45] Included 2 MB/2 MB of Database Backup.
+[info]-[2024/03/15 16:30:45] Successfully created backup file
+[info]-[2024/03/15 16:30:46] The backup was validated successfully.
+[info]-[2024/03/15 16:30:46] ################## FINISH ##################

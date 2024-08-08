@@ -1,0 +1,16 @@
+@tailwind components;
+
+@layer components {
+ .footer_menu ul {
+  @apply flex
+        flex-col  
+        resp-[gap/10]
+        w-fit
+        justify-between;
+ }
+
+ .footer_menu ul li {
+  @apply resp-[font/28/18]
+        font-accent-regular;
+ }
+}

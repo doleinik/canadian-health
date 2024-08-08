@@ -1,0 +1,33 @@
+.shorts-container {
+ overflow-y: auto;
+ scroll-snap-type: y mandatory;
+}
+
+.short-item {
+ scroll-snap-align: start;
+}
+
+.short-item video {
+ height: 100%;
+ width: 100%;
+ object-fit: fill;
+}
+
+.progressBar {
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ width: 0;
+ height: 3px;
+ background-color: #f74b48;
+ animation-duration: 2s;
+ animation-timing-function: linear;
+}
+.customPlayButton {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ font-size: 54px;
+ cursor: pointer;
+}

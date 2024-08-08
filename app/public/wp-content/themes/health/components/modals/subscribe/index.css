@@ -1,0 +1,34 @@
+@tailwind components;
+
+@layer components {
+ .modal-subscribe.active {
+  @apply !block;
+ }
+ .modal-subscribe-form label {
+  @apply !hidden;
+ }
+ .modal-subscribe-form .tnp-field-button .tnp-submit {
+  @apply bg-accent
+  text-white
+  w-full
+  uppercase
+  !resp-[py/20]
+  !resp-[px/20]
+  resp-[font/20/16];
+ }
+ .modal-subscribe-form .tnp-field-email .tnp-email {
+  @apply !bg-white 
+  !border-gray
+  w-full 
+  !resp-[py/20]
+  !resp-[px/20]
+  resp-[font/20/16];
+ }
+ .modal-subscribe-form .tnp-field-email .tnp-email:placeholder {
+  @apply !resp-[font/20/16];
+ }
+}
+
+.modal-subscribe-form .tnp-field-email .tnp-email {
+ border: 1px solid;
+}

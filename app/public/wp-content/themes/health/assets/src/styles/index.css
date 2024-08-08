@@ -1,0 +1,192 @@
+@import url("../../../../../plugins/brainwave/assembly/node_modules/swiper/swiper-bundle.css");
+@import url("./fonts.css");
+
+@tailwind components;
+
+@layer components {
+ .container {
+  @apply w-full
+        resp-[w-max/1220]
+        mx-auto
+        resp-[px/15];
+ }
+
+ /*Topography*/
+ .title-1 {
+  @apply resp-[font/42/32]
+        font-accent
+        leading-[1]
+        resp-[pt/6];
+ }
+
+ .title-2 {
+  @apply resp-[font/34/24]
+        font-accent
+        leading-[1]
+        resp-[pt/6];
+ }
+
+ .title-2-green {
+  @apply border-green;
+ }
+
+ .title-2-red {
+  @apply border-accent;
+ }
+
+ .title-2-secondary {
+  @apply border-secondary;
+ }
+
+ .title-3 {
+  @apply resp-[font/32]
+        font-accent
+        leading-[1.1];
+ }
+
+ .title-3 span {
+  @apply text-accent
+        block
+        leading-[1.1];
+ }
+
+ .title-4 {
+  @apply resp-[font/24]
+        font-accent
+        leading-[1.1];
+ }
+
+ .subtitle-1 {
+ }
+
+ .heading-1 {
+ }
+
+ .text-1 {
+ }
+
+ .button {
+ }
+
+ header {
+  @apply flex-header
+        z-50
+        overflow-hidden;
+ }
+
+ main {
+  @apply flex-main;
+ }
+
+ footer {
+  @apply flex-footer;
+ }
+
+ #body {
+  @apply flex
+        flex-col
+        min-h-[100vh]
+        bg-black
+        text-white;
+ }
+
+ .scrollbar-hide::-webkit-scrollbar {
+  @apply w-0;
+ }
+
+ .flex-center {
+  @apply flex
+        justify-center
+        items-center;
+ }
+
+ .position-center {
+  @apply absolute
+        left-[50%]
+        top-[50%]
+        translate-x-[-50%]
+        translate-y-[-50%];
+ }
+
+ .triangle {
+  @apply w-0 h-0
+        border-solid
+        border-t-[8px]
+        border-t-[#3462A0]
+        border-r-[8px]
+        border-r-transparent
+        border-b-0
+        border-b-transparent
+        border-l-0
+        border-l-transparent;
+ }
+
+ .added svg path {
+  @apply !fill-accent;
+ }
+
+ .svg-fill-green svg path {
+  @apply fill-green;
+ }
+
+ .hover-scale-image img {
+  @apply duration-700
+        ease-in-out;
+ }
+
+ .hover-scale-image:hover img {
+  @apply scale-[1.05];
+ }
+}
+.added svg path {
+ fill-rule: nonzero;
+}
+
+.bg-overlay-black {
+ box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.65);
+}
+
+#mailpoet_form_1 .subscribe-wrap {
+ display: flex;
+ flex-direction: row;
+}
+
+img {
+ height: 100%;
+ width: 100%;
+ object-fit: cover;
+ object-position: center;
+}
+
+* {
+ box-sizing: border-box;
+ /*border: 1px solid red;*/
+}
+
+.text-line-overflow-2 {
+ -webkit-line-clamp: 2;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ overflow: hidden;
+ line-height: 1.2;
+}
+
+.text-line-overflow-3 {
+ -webkit-line-clamp: 3;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ overflow: hidden;
+ line-height: 1.2;
+}
+
+#video-container iframe {
+ position: absolute;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 100%;
+}
+
+.mailpoet_form_paragraph {
+ display: none !important;
+}

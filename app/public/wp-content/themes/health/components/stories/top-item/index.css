@@ -1,0 +1,36 @@
+@tailwind components;
+
+@layer components {
+ .grid-custom {
+  @apply grid-cols-[100%]
+        tablet:grid-cols-[1fr_1fr_1fr];
+ }
+
+ .stories-first {
+  @apply tablet:row-span-2
+        tablet:col-span-2;
+ }
+
+ .stories-first .stories-img {
+  @apply tablet:max-h-none;
+ }
+
+ .stories-first .stories-category-item {
+  @apply tablet:resp-[font/24];
+ }
+
+ .stories-first .stories-category-item .triangle {
+  @apply tablet:resp-[font/24]
+        tablet:border-t-[16px]
+        tablet:border-r-[16px];
+ }
+
+ .stories-first h3 {
+  @apply tablet:resp-[font/30];
+ }
+
+ .stories-first .stories-play {
+  @apply tablet:resp-[svg-width/80/40]
+        tablet:resp-[svg-height/80/40];
+ }
+}
